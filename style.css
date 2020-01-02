@@ -319,4 +319,123 @@ footer h1
     aside {
         display: block
     }
+
+    footer {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: baseline;
+        text-align: left;
+    }
+
+    footer p, footer ul {
+        font-size: 0.8em;
+        text-align: left;
+    }
+
+    footer h1 {
+        font-size: 1.1em;
+        text-align: left;
+    }
+
+    #tweet {
+        width: 28%;
+    }
+
+    #mes_photos {
+        width: 35%;
+        flex-direction: row;
+        text-align: left;
+    }
+
+    #mes_amis {
+        width: 31%;
+    }
+
+    #mes_amis h1 {
+        text-align: left;
+    }
+
+    #mes_photos img {
+        width: auto;
+        height: auto;
+        border: 1px solid #181818;
+        margin-right: 2px;
+    }
+
+    #listes_amis {
+        flex-direction: row;
+    }
+
+    #mes_amis ul {
+        list-style-image: url('images/ico_liensexterne.png');
+        padding-left: 2px;
+    }
+
+}
+
+@media only screen and (min-width: 1240px) {
+         
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    #logo {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+
+    #logo img {
+        width: 59px;
+        height: 60px;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    header h2 {
+        font-size: 1.1em;
+    }
+
+    /* Navigation */
+
+    nav ul {
+        justify-content: flex-end;
+    }
+
+    nav li {
+        margin-right: 15px;
+    }
+
+    nav a {
+        font-size: 1.3em;
+    }
+
+        
+    #banniere_image {
+        height: 200px;
+        width: auto;
+        background-size: center;
+    }
+
+    #banniere_description {
+        font-size: 0.8em;
+    }
+
+    .bouton_rouge {
+        font-size: 1.2em;
+    }
+
+    section article h1 {
+        font-size: 1.17em;
+        text-align: left;
+    }
+
+    article p {
+        font-size: 0.8em;
+    }
+
 }
